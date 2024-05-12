@@ -1,0 +1,32 @@
+body {
+  background-image: url(images/fantsylion.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: 100%;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0%);
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 6rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
