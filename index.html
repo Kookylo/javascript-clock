@@ -1,16 +1,25 @@
+<!--
+  This is the main HTML file for the Javascript Clock project.
+  It contains the structure and layout of the clock display.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Clock</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Clock</title>
+  <link rel="stylesheet" href="styles.css">
+  <script async src="app.js"></script>
 </head>
 <body>
   <div id="clock-container">
-    <div id="clock">00:00:00</div>
+    <div id="clock"></div>
   </div>
 
-  <script src="app.js"></script>
+  <script>
+    const clockElement = document.getElementById('clock');
+    clockElement.innerText = new Date().toLocaleTimeString();
+  </script>
 </body>
 </html>
