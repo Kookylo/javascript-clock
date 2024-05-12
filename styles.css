@@ -1,3 +1,16 @@
+/**
+ * This CSS file contains styles for a clock application.
+ * 
+ * Styles:
+ * - Sets the background image and position
+ * - Sets the font family, size, weight, and color
+ * - Sets the background color and opacity
+ * - Sets the width and text shadow
+ * - Styles the clock container and clock element
+ * 
+ * @author [Luis Gonzales](https://github.com/kookylo)
+ * @version 1.0
+ */
 body {
   background-image: url(images/fantsylion.jpg);
   background-position: center;
